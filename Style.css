@@ -1,19 +1,53 @@
-body
+header
 {
-	background-color: rgb(3,70,124);
-}
-h1
-{
-	color: rgb(185,225,220);
-	text-shadow: 2px 2px 4px black;
 	border-bottom: 2px gray solid;
 }
-h2
-{	
-	color: rgb(185,225,220);
-	text-shadow: 2px 2px 4px black;
+
+header div h1 a
+{
+	
+	display: inline-block;
+	color: rgb(100, 0, 0);
+	text-shadow: 1px 1px 3px rgb(255,213,213);
+	
+}
+
+body
+{
+	color: gray;
+	background-color: rgb(3,70,124);
+}
+div
+{
+	display: inline-block;
+	margin-left:20px;
+}
+
+nav
+{
+	display: inline-block;
+	margin-left:500px;
+}
+
+nav li
+{
+	
+    display:inline-block;
+    margin-right: 50px;
+	
 }
 a
 {
-	color:gray;
+	color: black;
+	text-decoration: none;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: rgb(255,213,213);
+    text-decoration: none;
+	border-bottom:2px rgb(100, 0, 0) outset;
+	padding: 10px;
+	text-shadow: 1px 1px 3px rgb(100,0,0);
+	
 }
