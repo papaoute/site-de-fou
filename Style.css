@@ -57,18 +57,21 @@ nav a
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 2px black;
-	
 	width: 350px;
 	height: 150px;
 	padding:20px;
 	margin-top: 5%;
 	margin-left:10%;
 	text-align: justify;
+	background-color: rgb(3,70,124);
+	color: rgb(255,213,213);
 	
 }
 .bouton_Economie:hover
 {
-	box-shadow: 0 0 0 black;
+	box-shadow: 0 0 0;
+	filter: brightness(90%);
+	font-size:97%;
 }
 .bouton_Finance
 {
@@ -82,29 +85,40 @@ nav a
 	margin-top: 5%;
 	margin-left:10%;
 	text-align: justify;
+	background-color: rgb(3,70,124);
+	color: rgb(255,213,213);
 	
 }
 .bouton_Finance:hover
 {
-	box-shadow: 0 0 0 black;
+	box-shadow: 0 0 0;
+	filter: brightness(90%);
+	font-size:97%;
 }
 .bouton_Sport
 {
 	display:inline-block; 
 	border: 1px solid black;
 	border-radius:10px;
-	box-shadow:2px 2px 2px black;
+	box-shadow:2px 2px 3px black;
 	width: 350px;
 	height: 150px;
 	padding:20px;
 	margin-top: 5%;
 	margin-left:10%;
 	text-align: justify;
+	background-position: center;
+	background-color: rgb(3,70,124);
+	color: rgb(255,213,213);
 	
 }
+
+
 .bouton_Sport:hover
 {
-	box-shadow: 0 0 0 black;
+	box-shadow: 0 0 0;
+	filter: brightness(90%);
+	font-size:97%;
 }
 .bouton_Débats
 {
@@ -118,8 +132,12 @@ nav a
 	margin-top: 5%;
 	margin-left:10%;
 	text-align: justify;	
+	background-color: rgb(3,70,124);
+	color: rgb(255,213,213);
 }
 .bouton_Débats:hover
 {
-	box-shadow: 0 0 0 black;
+	box-shadow: 0 0 0;
+	filter: brightness(90%);
+	font-size:97%;
 }
