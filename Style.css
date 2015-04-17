@@ -51,66 +51,69 @@ nav a
 	text-shadow: 1px 1px 3px rgb(100,0,0);
 	
 }
+
 .bouton_Economie
 {
+	position: absolute;
+	top:200px;
+	left:50px;
 	display:inline-block; 
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 2px black;
 	width: 350px;
 	height: 150px;
-	padding:20px;
-	margin-top: 5%;
-	margin-left:10%;
 	text-align: justify;
 	background-color: rgb(3,70,124);
 	color: rgb(255,213,213);
+	padding-left:10px;
+	padding-top:5px;
 	
 }
 .bouton_Economie:hover
 {
-	box-shadow: 0 0 0;
+	box-shadow: 0 0 0 ;
 	filter: brightness(90%);
 	font-size:97%;
 }
 .bouton_Finance
 {
-	display:inline-block; 
+	position: absolute;
+	top:200px;
+	left:500px;
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 2px black;
 	width: 350px;
 	height: 150px;
-	padding:20px;
-	margin-top: 5%;
-	margin-left:10%;
-	text-align: justify;
 	background-color: rgb(3,70,124);
 	color: rgb(255,213,213);
-	
+	padding-left:10px;
+	padding-top:5px;
 }
 .bouton_Finance:hover
 {
-	box-shadow: 0 0 0;
+	box-shadow:0 0 0 ;
 	filter: brightness(90%);
 	font-size:97%;
+	
 }
 .bouton_Sport
 {
-	display:inline-block; 
+	position: absolute;
+	top:450px;
+	left:50px;
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 3px black;
 	width: 350px;
 	height: 150px;
-	padding:20px;
-	margin-top: 5%;
-	margin-left:10%;
 	text-align: justify;
-	background-position: center;
 	background-color: rgb(3,70,124);
 	color: rgb(255,213,213);
-	
+	padding-left:10px;
+	padding-top:5px;
+
 }
 
 
@@ -122,18 +125,20 @@ nav a
 }
 .bouton_Débats
 {
+	position: absolute;
+	top: 450px;
+	left:500px;
 	display:inline-block; 
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 2px black;
 	width: 350px;
 	height: 150px;
-	padding:20px;
-	margin-top: 5%;
-	margin-left:10%;
 	text-align: justify;	
 	background-color: rgb(3,70,124);
 	color: rgb(255,213,213);
+	padding-left:10px;
+	padding-top:5px;
 }
 .bouton_Débats:hover
 {
