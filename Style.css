@@ -51,97 +51,26 @@ nav a
 	text-shadow: 1px 1px 3px rgb(100,0,0);
 	
 }
-
-.bouton_Economie
+.bouton_toutcourt
 {
-	position: absolute;
-	top:25%;
-	left:10%;
+	
+	display: inline-block;
 	border: 1px solid black;
 	border-radius:10px;
 	box-shadow:2px 2px 2px black;
-	width: 25%;
-	height: 30%;
+	width: 40%;
+	height: 100%;
 	text-align: justify;
 	background-color: rgb(3,70,124);
 	color: rgb(255,213,213);
 	padding-left:10px;
 	padding-top:5px;
+	line-height: 10em;
 	
 }
-.bouton_Economie:hover
+.bouton_toutcourt:hover
 {
 	box-shadow: 0 0 0 ;
-	filter: brightness(90%);
-	font-size:97%;
-}
-.bouton_Finance
-{
-	position: absolute;
-	top:25%;
-	left:50%;
-	border: 1px solid black;
-	border-radius:10px;
-	box-shadow:2px 2px 2px black;
-	width: 25%;
-	height: 30%;
-	background-color: rgb(3,70,124);
-	color: rgb(255,213,213);
-	padding-left:10px;
-	padding-top:5px;
-}
-.bouton_Finance:hover
-{
-	box-shadow:0 0 0 ;
-	filter: brightness(90%);
-	font-size:97%;
-	
-}
-.bouton_Sport
-{
-	position: absolute;
-	top:65%;
-	left:10%;
-	border: 1px solid black;
-	border-radius:10px;
-	box-shadow:2px 2px 3px black;
-	width: 25%;
-	height: 30%;
-	text-align: justify;
-	background-color: rgb(3,70,124);
-	color: rgb(255,213,213);
-	padding-left:10px;
-	padding-top:5px;
-
-}
-
-
-.bouton_Sport:hover
-{
-	box-shadow: 0 0 0;
-	filter: brightness(90%);
-	font-size:97%;
-}
-.bouton_Débats
-{
-	position: absolute;
-	top: 65%;
-	left:50%;
-	display:inline-block; 
-	border: 1px solid black;
-	border-radius:10px;
-	box-shadow:2px 2px 2px black;
-	width: 25%;
-	height: 30%;
-	text-align: justify;	
-	background-color: rgb(3,70,124);
-	color: rgb(255,213,213);
-	padding-left:10px;
-	padding-top:5px;
-}
-.bouton_Débats:hover
-{
-	box-shadow: 0 0 0;
 	filter: brightness(90%);
 	font-size:97%;
 }
